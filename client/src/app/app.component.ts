@@ -8,8 +8,7 @@ import { setTheme } from 'ngx-bootstrap/utils';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'Matrimonial App';
-  users: any;
+model: any = {}
 
   constructor(private http: HttpClient){
     setTheme('bs4'); // or 'bs5'
